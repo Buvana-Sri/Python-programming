@@ -1,1 +1,16 @@
+#using max function
+n=int(input())
+l=[]
+for i in n:
+  l.append(i)
+  print(max(l))
 
+#using a third variable
+n=int(input())
+large=0
+while n!=0:
+  r=n%10
+  if r>l:
+    large=r;
+  n=n//10
+print(large)
